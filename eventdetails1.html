@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Event Details 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <a href="index.html">
+            <img id="logo-small" src="assets/logo.png" alt="logo">
+        </a>>
+        <a href="profile.html" class="profilelink">
+            <img id="profilepic" src="assets/maria.png" alt="profile">
+        </a>
+    </div>
+    <div id="headerbar">
+    </div>
+
+    <!--main-->
+    <div class="detailstop">
+        <a href="index.html" class="arrowback">
+            <img src="assets/arrow back.png" alt="back">
+        </a>
+        <p class="detailstitle">Create Event</p>
+        <div class="detailsprogress">
+            <div class="progcircle progcurrent">1</div>
+            <p class="proglabel">Details</p>
+            <div class="progressdash"></div>
+            <div class="progcircle">2</div>
+            <div class="progressdash"></div>
+            <div class="progcircle">3</div>
+            <div class="progressdash"></div>
+            <div class="progcircle">4</div>
+        </div>
+    </div>
+
+    <!--forms-->
+    <form class="detailsform formtop">
+        <label class="detailslabel" for="detailstitle">
+            Title<span style="color:red">*</span>
+        </label>
+        <input type="text" placeholder="First Meeting" class="detailsinput" name="detailstitle"></input>
+    </form>
+    <form class="detailsform">
+        <label class="detailslabel" for="detailsloc">
+            Location
+        </label>
+        <input type="text" placeholder="Zoom" class="detailsinput" name="detailsloc"></input>
+    </form>
+    <form class="detailsform">
+        <label class="detailslabel" for="detailsdesc">
+            Description
+        </label>
+        <input type="text" placeholder="Planning for next month's activities" class="detailsinput" name="detailsdesc"></input>
+    </form>
+
+    <!--nav-->
+    <div class="detailsnav">
+    <a class="detailsnavbu back" href="index.html">
+        Back
+    </a>
+    <a class="detailsnavbu" href="#">
+        Next
+    </a>
+    </div>
+</body>
+</html>
